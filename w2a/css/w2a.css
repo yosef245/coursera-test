@@ -1,0 +1,87 @@
+
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+section{
+  position: relative;
+  margin-bottom: 3%;
+  margin-left: 3%;
+  background: grey;
+  border: 1px solid black ;
+  
+}
+h4{
+  position: relative;
+  text-align: center;
+  border: 1px solid black; 
+  margin-left: 70%;
+}
+
+#p1t{
+  background: red;
+  
+}
+#p2t{
+  background: pink;
+}
+#p3t{
+  background: yellow;
+}
+
+p {
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** desktop version **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 29.3333%;
+  }
+    
+
+}
+
+/********** Tablets view **********/
+@media (min-width: 768px) and (max-width: 991px) {
+   .col-md-6,  .col-md-12 {
+    float: left;
+    
+  }
+  
+  .col-md-6 {
+    width: 45.5%;
+  }
+  
+  .col-md-12 {
+    width: 94%;
+  }
+}
+
+/********** Mobile view **********/
+@media  (max-width: 767px) {
+   .col-sm-12 {
+    float: left;
+    
+    width: 94%;
+  }
+
+  
+}
+  
