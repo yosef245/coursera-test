@@ -1,0 +1,64 @@
+#nav-head{
+	background:  #737373;
+	 border-radius: 0;
+}
+
+
+.container-fluid
+{
+	border: 1px solid black;
+	background: grey;
+}
+.navbar-header .navbar-brand{
+
+	color: black;
+	font-size: 1.8em;
+	font-family: 'Chewy', cursive;
+}
+.row{
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.row section{
+	background:  #737373;
+
+}
+h1{
+
+	font-family: 'Chewy', cursive;
+}
+h3{
+	padding-top: 5px; 
+	font-family: 'Chewy', cursive;
+}
+#collapsable-nav{
+	border: 1px solid black;
+	background: white;
+}
+hr{
+	border-top:1px solid black;
+	margin: 5px;
+}
+a{
+	text-align: center;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+/**********for desktop only******/
+@media (min-width:768px){
+.nav>li>a{
+display: none;
+}
+#nav-list{
+	display: none;
+}
+#collapsable-nav{
+	border: 0;
+	background: grey;
+}
+}
+
+
